@@ -83,9 +83,9 @@ struct HomeView: View {
                 .task {
                     await viewModel.getTitles()
                 }
-//                .navigationDestination(for: Title.self) { title in
-//                    TitleDetailView(title: title)
-//                }
+                .navigationDestination(for: Title.self) { title in
+                    TitleDetailView(title: title)
+                }
             }
         }
     }
